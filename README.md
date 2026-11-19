@@ -23,7 +23,7 @@ from no account to a submitted entry.
 - [5. Bundle, check, submit](#5-bundle-check-submit)
 - [6. Follow your entry](#6-follow-your-entry)
 - [7. Claim a prize](#7-claim-a-prize)
-- [Mistakes I made so you don't have to](#mistakes-i-made-so-you-dont-have-to)
+- [Mistakes to avoid](#mistakes-to-avoid)
 
 ## What make.fun is
 
@@ -133,7 +133,7 @@ node cli/makefun.mjs claim --claim <claim id> --keypair wallet.json --us-person 
 
 The prize goes to the wallet that signed the winning entry. Claim within the window the rules give.
 
-## Mistakes I made so you don't have to
+## Mistakes to avoid
 
 - **LICENSE without an SPDX line.** `check` wants `SPDX-License-Identifier: MIT` at the top of LICENSE.
   GitHub's MIT template doesn't have it, so add the line yourself.
